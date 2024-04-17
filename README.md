@@ -18,12 +18,23 @@ The dataset used in this project contains the following attributes:
 - Number of players absent for sessions
 
 # Methodology
-- Data preprocessing: Cleaning and transforming the dataset for analysis.
-Exploratory data analysis: Analyzing relationships between attributes and points scored.
-Model selection: Choosing polynomial regression for predicting team scores.
-- Model training: Fitting the regression model to the data.
-- Model evaluation: Assessing the performance of the trained model.
-- Insights and interpretation: Interpreting model coefficients and providing actionable insights.
+## Exploratory Data Analysis (EDA)
+- Cleaning and Transforming Data: Explain the steps taken to clean and transform the dataset. This may include handling missing data, dealing with outliers, encoding categorical variables, and scaling numerical features.
+- Visualizing Data: Discuss the visualizations used to explore the dataset, such as histograms, scatter plots, box plots, and correlation matrices. Mention any insights gained from these visualizations.
+
+## Imputation Techniques for Missing Data
+- Provide an overview of different imputation techniques used to handle missing data, such as mean imputation, median imputation, mode imputation, K-nearest neighbors imputation, and using advanced models like Random Forest or LightGBM for imputation.
+
+## Polynomial Regression
+- Theory and Concepts: Explain the fundamentals of polynomial regression, including the difference between linear and polynomial regression, and how polynomial regression models capture nonlinear relationships between independent and dependent variables.
+- Model Evaluation: Discuss methods used to evaluate the goodness of fit of polynomial regression models, such as R-squared, Mean Squared Error (MSE), and other performance metrics.
+- Model Diagnostics: Describe techniques like ANOVA tables, residual plots, and model diagnostics to identify and address model assumptions and limitations.
+
+## Chatterjee Correlation
+- Concept: Explain what Chatterjee Correlation is and how it's used to evaluate the relationship between independent and dependent variables in a polynomial regression model.
+
+## Model Selection
+- AIC and BIC: Provide an overview of AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion), likelihood, and log likelihood. Explain how these metrics are used to compare and select the best-fitting polynomial regression model.
 
 Results
 The trained polynomial regression model achieved an accuracy of X%. Key factors influencing team scoring performance include weightlifting sessions, yoga sessions, laps run per practice, and player attendance.
