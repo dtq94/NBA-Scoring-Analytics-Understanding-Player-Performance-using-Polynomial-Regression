@@ -36,6 +36,19 @@ The dataset used in this project contains the following attributes:
 ## Model Selection
 - AIC and BIC: Provide an overview of AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion), likelihood, and log likelihood. Explain how these metrics are used to compare and select the best-fitting polynomial regression model.
 
+## Understanding Project Structure
+```
+Regression_Module
+|-- InputFiles
+    -- NBA_dataset.csv
+|-- SourceFolder
+    |-- ML_Pipeline
+        -- kuma_utils
+        -- model.py
+        -- Preprocessing.py
+    |-- Engine.py
+|-- README.MD
+
 Results
 The trained polynomial regression model achieved an accuracy of X%. Key factors influencing team scoring performance include weightlifting sessions, yoga sessions, laps run per practice, and player attendance.
 
